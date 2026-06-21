@@ -39,7 +39,10 @@ if (variant && variant.available) {
 //     "https://ntfy.sh/tripole-alerts",
 //     "🚨 Tripole Walker Pro 60L is AVAILABLE!"
 //   );
-   
+   axios.post(
+  "https://ntfy.sh/tripole-bhumireddy-alert",
+  "✅ Test notification from GitHub Actions"
+);
   console.log("Still Sold Out");
 }
 
